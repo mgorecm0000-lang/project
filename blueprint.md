@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This application generates random lottery numbers. It allows users to click a button to get a set of unique numbers, simulating a lottery draw. The application is built with modern web technologies and automatically deployed via Cloudflare Pages.
+This application generates random lottery numbers. It allows users to click a button to get a set of unique numbers, simulating a lottery draw. It also includes a contact form for partnership inquiries. The application is built with modern web technologies and automatically deployed via Cloudflare Pages.
 
 ## 2. Design and Features
 
@@ -18,10 +18,11 @@ This application generates random lottery numbers. It allows users to click a bu
 - **Number Generation:** Clicking the button generates 6 unique random numbers between 1 and 45.
 - **Display:** The generated numbers are displayed in the designated area.
 - **Theme Persistence:** The selected theme (dark/light) is saved in local storage and applied on future visits.
+- **Partnership Inquiry Form:** A simple contact form allows users to send inquiries via Formspree.
 
 ## 3. Current Plan
 
-- **HTML:** Add a theme toggle switch to `index.html`.
-- **CSS:** Add styles for the toggle switch and create dark mode specific styles in `style.css`.
-- **JavaScript:** Implement the logic in `main.js` to handle theme switching and save the user's preference in local storage.
+- **HTML:** Add a contact form section to `index.html`.
+- **CSS:** Add styles for the contact form, ensuring it works with both light and dark themes.
+- **JavaScript:** No changes needed for the form functionality.
 - **Deployment:** Commit all changes to GitHub for automatic deployment.
