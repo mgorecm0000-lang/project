@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This application generates random lottery numbers. It allows users to click a button to get a set of unique numbers, simulating a lottery draw. It also includes a contact form for partnership inquiries. The application is built with modern web technologies and automatically deployed via Cloudflare Pages.
+This application generates random lottery numbers. It allows users to click a button to get a set of unique numbers, simulating a lottery draw. It also includes a contact form for partnership inquiries and a comment section for user discussions. The application is built with modern web technologies and automatically deployed via Cloudflare Pages.
 
 ## 2. Design and Features
 
@@ -19,10 +19,10 @@ This application generates random lottery numbers. It allows users to click a bu
 - **Display:** The generated numbers are displayed in the designated area.
 - **Theme Persistence:** The selected theme (dark/light) is saved in local storage and applied on future visits.
 - **Partnership Inquiry Form:** A simple contact form allows users to send inquiries via Formspree.
+- **Comment Section:** A Disqus-powered comment section allows for user discussion.
 
 ## 3. Current Plan
 
-- **HTML:** Add a contact form section to `index.html`.
-- **CSS:** Add styles for the contact form, ensuring it works with both light and dark themes.
-- **JavaScript:** No changes needed for the form functionality.
+- **HTML:** Add the Disqus comment section to `index.html`.
+- **JavaScript:** Add the Disqus embed script to `index.html`.
 - **Deployment:** Commit all changes to GitHub for automatic deployment.
