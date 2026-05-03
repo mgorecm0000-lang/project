@@ -12,14 +12,16 @@ This application generates random lottery numbers. It allows users to click a bu
 - **Display Area:** A clean, well-defined area to show the generated numbers. Each number is styled individually for emphasis.
 - **Button:** A styled button with a clear "Generate Numbers" label and a subtle hover effect.
 - **Responsiveness:** The layout adapts to different screen sizes.
+- **Dark/White Mode:** A toggle switch allows users to switch between light and dark themes.
 
 ### Functionality
 - **Number Generation:** Clicking the button generates 6 unique random numbers between 1 and 45.
 - **Display:** The generated numbers are displayed in the designated area.
+- **Theme Persistence:** The selected theme (dark/light) is saved in local storage and applied on future visits.
 
 ## 3. Current Plan
 
-- **HTML:** Update `index.html` with the necessary elements (title, number display, button).
-- **CSS:** Create styles in `style.css` for a clean and modern user interface.
-- **JavaScript:** Implement the number generation logic in `main.js`.
-- **Deployment:** All changes will be committed to GitHub to trigger an automatic deployment on Cloudflare Pages.
+- **HTML:** Add a theme toggle switch to `index.html`.
+- **CSS:** Add styles for the toggle switch and create dark mode specific styles in `style.css`.
+- **JavaScript:** Implement the logic in `main.js` to handle theme switching and save the user's preference in local storage.
+- **Deployment:** Commit all changes to GitHub for automatic deployment.
